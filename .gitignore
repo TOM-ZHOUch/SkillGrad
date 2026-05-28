@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.env
+.venv/
+venv/
+.DS_Store
+
+# local outputs
+results/
+runs/
+
+# the SpreadsheetBench dataset (fetched separately; see data/benchmarks/README.md)
+data/benchmarks/spreadsheetbench/
+
+# editor / cache
+.idea/
+.vscode/
+.pytest_cache/
+.ipynb_checkpoints/
